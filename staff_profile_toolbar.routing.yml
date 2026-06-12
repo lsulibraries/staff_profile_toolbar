@@ -1,0 +1,7 @@
+staff_profile_toolbar.my_profile:
+  path: '/my-profile'
+  defaults:
+    _controller: '\Drupal\staff_profile_toolbar\Controller\StaffProfileRedirectController::goToProfile'
+    _title: 'My Profile'
+  requirements:
+    _custom_access: '\Drupal\staff_profile_toolbar\Access\StaffProfileAccessCheck::access'

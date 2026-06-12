@@ -1,0 +1,8 @@
+staff_profile_toolbar.profile_link:
+  title: 'Profile'
+  description: 'Edit your staff profile'
+  route_name: entity.node.edit_form
+  menu_name: admin
+  class: Drupal\staff_profile_toolbar\Plugin\Menu\StaffProfileMenuLink
+  parent: system.admin
+  weight: -100

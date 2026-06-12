@@ -1,0 +1,8 @@
+name: Staff Profile Toolbar
+type: module
+description: Adds a dynamic Profile link for each user to edit their associated staff node.
+core_version_requirement: ^11
+package: Custom
+dependencies:
+  - drupal:user
+  - drupal:node

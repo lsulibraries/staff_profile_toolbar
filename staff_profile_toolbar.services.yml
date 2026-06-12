@@ -1,0 +1,3 @@
+services:
+  staff_profile_toolbar.access_check:
+    class: Drupal\staff_profile_toolbar\Access\StaffProfileAccessCheck
