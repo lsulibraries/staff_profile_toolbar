@@ -1,0 +1,9 @@
+{
+    "name": "ktanglao/staff_profile_toolbar",
+    "description": "Custom Drupal module for staff profile toolbar functionality.",
+    "type": "drupal-custom-module",
+    "license": "proprietary",
+    "require": {
+        "php": ">=8.1"
+    }
+}
